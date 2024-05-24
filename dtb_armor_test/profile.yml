@@ -1,0 +1,13 @@
+my_snowflake_profile:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: zu26783.west-europe.azure
+      user: FANDY
+      password: AnaisEva97490!
+      role: sysadmin
+      database: POC_TRANSFORMATION_DBT
+      warehouse: DBT_WH
+      schema: DWH
+      threads: 4
